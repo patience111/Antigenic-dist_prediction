@@ -9,4 +9,5 @@ Specifically, first run "git clone https://github.com/brianhie/viral-mutation.gi
 
 ``` 
 python3 ./scripts/viral-mutation/bin/flu_h3.py bilstm --train --test > fluh3_train.log 2>&1
-``` 
+```
+The trained PLM model on A/H3N2 HA sequences in this study is saved in the models folder in this repo.
