@@ -20,6 +20,7 @@ The trained PLM model (flua-h3.hdf5) on A/H3N2 HA sequences in this study is sav
 Embedding extraction 
 ------------
 The input of the deep regression model developed in this study come from the embedding from the PLM model. The embeddng extraction command is:
+(move the script "biLSTM_embed-extract.py" in "scripts" dir to "scripts/viral-mutation/bin/")
 ``` 
 python ./scripts/viral-mutation/bin/biLSTM_embed-extract.py bilstm --checkpoint ./models/flua-h3.hdf5 --embed > extract_embedding.log 2>&1
 
