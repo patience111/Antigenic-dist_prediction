@@ -26,7 +26,7 @@ The input of the deep regression model developed in this study come from the emb
 python ./scripts/viral-mutation/bin/biLSTM_embed-extract.py bilstm --checkpoint ./models/flua-h3.hdf5 --embed > extract_embedding.log 2>&1
 
 ```
-Deep regresson model for prediction antigenic distance 
+Deep regression model for prediction antigenic distance 
 ------------
 The trained model (deepRegression.h5) is saved in the "models" directory and the command of antigenic distance prediction is:
 (Before running the following command, you need to download the PLM embedding file (over 2GB) in [strain_embed_aligned567-1024](https://drive.google.com/file/d/1JtxSO6kZfOS_WxGDwQgTEF_rDuVxjseR/view?usp=drive_link) and save it in the "data" directory)
