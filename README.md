@@ -21,5 +21,6 @@ Embedding extraction
 ------------
 The input of the deep regression model developed in this study come from the embedding from the PLM model. The embeddng extraction command is:
 ``` 
-python3 ./scripts/viral-mutation/bin/flu_h3.py bilstm --train --test > fluh3_train.log 2>&1
+python ./scripts/viral-mutation/bin/biLSTM_embed-extract.py bilstm --checkpoint ./models/flua-h3.hdf5 --embed > flu3_embeded_antigenic-cluster-koel2013-e2.log 2>&1
+
 ```
