@@ -1,6 +1,6 @@
 # Antigenic-dist_prediction
-This repository contains a study on predicting the antigenic distance of A/H3N2 influenza using HA sequences. \\
-In this study, a protein language model (PLM) was first trained on A/H3N2 HA sequences. The trained PLM model embedded 454 HA sequences from virus-virus and virus-antiserum pairs collected between 1968 and 2003. These extracted 454 embedding representations (83,378 pairs) were then used to train a deep regression model to predict the antigenic distance between the virus-virus and virus-antiserum pairs.
+This repository contains a study on predicting the antigenic distance of A/H3N2 influenza using HA sequences.<br>
+In this study, a protein language model (PLM) was first trained on A/H3N2 HA sequences. The trained PLM model embedded 454 HA sequences from virus-virus and virus-antiserum pairs collected between 1968 and 2003. These 454 embedding representations (83,378 pairs) were then used to train a deep regression model to predict the antigenic distance between the virus-virus and virus-antiserum pairs.
 ![alt text](https://github.com/patience111/Antigenic-dist_prediction/blob/main/pics/image-abstract.png)</br>
 
 Installation
