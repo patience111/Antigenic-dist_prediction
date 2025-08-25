@@ -5,7 +5,7 @@ In this study, a protein language model (PLM) was first trained on A/H3N2 HA seq
 
 Installation
 ------------
-The major Python package requirements and their tested versions are in requirements.txt.
+The major Python package requirements and their tested versions are in requirements.txt.</br>
 Our experiments were run with Python version 3.7 on Ubuntu 20.04.
 
 Protein language model (PLM) training
