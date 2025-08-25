@@ -21,8 +21,15 @@ The trained PLM model (flua-h3.hdf5) on A/H3N2 HA sequences in this study is sav
 Embedding extraction 
 ------------
 The input of the deep regression model developed in this study come from the embedding from the PLM model. The embeddng extraction command is:
-(move the script "biLSTM_embed-extract.py" in "scripts" dir to "scripts/viral-mutation/bin/")
+(move the script "biLSTM_embed-extract.py" in "scripts" directory to "scripts/viral-mutation/bin/")
 ``` 
 python ./scripts/viral-mutation/bin/biLSTM_embed-extract.py bilstm --checkpoint ./models/flua-h3.hdf5 --embed > extract_embedding.log 2>&1
 
 ```
+Deep regresson model for prediction antigenic distance 
+------------
+The trained model (deepRegression.h5) is saved in the "models" directory and the command of antigenic distance prediction is:
+``` 
+python ./scripts/antigenic-dist_prediction_example.py
+```
+The prediction results will be saved in the "results" directory. For example the results of test data fold_0 are illusrated as:
