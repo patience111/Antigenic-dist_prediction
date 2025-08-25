@@ -29,6 +29,7 @@ python ./scripts/viral-mutation/bin/biLSTM_embed-extract.py bilstm --checkpoint 
 Deep regresson model for prediction antigenic distance 
 ------------
 The trained model (deepRegression.h5) is saved in the "models" directory and the command of antigenic distance prediction is:
+(Before running the following command, you need to download the PLM embedding file (over 2GB) using the "get_embedding.sh" script and save it in the "data" directory.)
 ``` 
 python ./scripts/antigenic-dist_prediction_example.py
 ```
