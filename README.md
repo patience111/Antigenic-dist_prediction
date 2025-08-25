@@ -34,3 +34,4 @@ The trained model (deepRegression.h5) is saved in the "models" directory and the
 python ./scripts/antigenic-dist_prediction_example.py
 ```
 The prediction results will be saved in the "results" directory. For example the results of test data fold_0 are illusrated as:
+![alt text](https://github.com/patience111/Antigenic-dist_prediction/blob/main/pics/prediction_fold-0.png)
