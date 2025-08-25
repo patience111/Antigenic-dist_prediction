@@ -44,7 +44,7 @@ Citation
 
 Contribute
 ------------
-If you'd like to contribute to this project, check out [[https://github.com/patience111/argnet](https://github.com/patience111/Antigenic-dist_prediction)]
+If you'd like to contribute to this project, check out [Antigenic-dist_prediction](https://github.com/patience111/Antigenic-dist_prediction).</br>
 Hope you enjoy the journey of predicting antigenic distance, any problem please contact scpeiyao@gmail.com.
 
 
