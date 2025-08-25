@@ -35,3 +35,12 @@ python ./scripts/antigenic-dist_prediction_example.py
 ```
 The prediction results will be saved in the "results" directory. For example the results of test data fold_0 are illusrated as:
 ![alt text](https://github.com/patience111/Antigenic-dist_prediction/blob/main/pics/prediction_fold-0.png)
+The first two column are the strain names for virus-virus or virus-antiserum pair.</br>
+the third column is the true antigenic distance from the antigenic map.</br>
+the last column is the antigenic distance predicted by the deep regression model in this study.
+
+Citation
+------------
+
+
+
