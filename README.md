@@ -42,5 +42,10 @@ the last column is the antigenic distance predicted by the deep regression model
 Citation
 ------------
 
+Contribute
+------------
+If you'd like to contribute to this project, check out [[https://github.com/patience111/argnet](https://github.com/patience111/Antigenic-dist_prediction)]
+Hope you enjoy the journey of predicting antigenic distance, any problem please contact scpeiyao@gmail.com.
+
 
 
